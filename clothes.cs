@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-public class Solution {
-    public int solution(string[,] clothes) {
+public class Solution
+{
+    public int solution(string[,] clothes)
+    {
         int answer = 1;
         var counts = new Dictionary<string, int>();
 
@@ -32,11 +34,10 @@ public class Solution {
 }
 
 
-using System;
-using System.Collections.Generic;
-
-public class Solution {
-    public int solution(string[,] clothes) {
+public class Solution
+{
+    public int solution(string[,] clothes)
+    {
         int answer = 1;
         var counts = new Dictionary<string, int>();
 
