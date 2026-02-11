@@ -10,7 +10,7 @@ int solution(vector<vector<string>> clothes)
     unordered_map<string, int> counts;
     counts.reserve(clothes.size());
 
-    for (const auto& clothe : clothes) counts[clothe[1]]++;
+    for (const auto& cloth : clothes) counts[cloth[1]]++;
     for (const auto& [type, count] : counts) answer *= (count + 1);
 
     return answer - 1;    
